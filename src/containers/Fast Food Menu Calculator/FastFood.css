@@ -1,0 +1,137 @@
+
+.fastfood {
+    background: linear-gradient(to bottom, #f5eded, #e9e4f0);
+    border-radius: 20px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.items-block {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.items-block button {
+    min-width: 250px;
+    height: 75px;
+    padding: 14px 17px 0 0;
+    background-size: 35%;
+    border-radius: 15px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.items-block button p {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.items-block button h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.items-block button:hover {
+    background-color: black;
+    color: white;
+}
+
+.items-block button p, .items-block button h3 {
+    margin: 0;
+}
+
+.Hamburger {
+    background: url("./assets/burger.jpg") no-repeat left center;
+}
+
+.Cheeseburger {
+    background: url("./assets/cheeseburger.jpg") no-repeat left center;
+}
+
+.Shaurma {
+    background: url("./assets/shawerma.jpg") no-repeat left center;
+}
+.Fries {
+    background: url("./assets/fries.jpg") no-repeat left center;
+}
+.Cola {
+    background: url("./assets/cola.jpg") no-repeat left center;
+}
+.Tea {
+    background: url("./assets/tea.jpg") no-repeat left center;
+}
+.Coffee {
+    background: url("./assets/coffee.jpg") no-repeat left center;
+}
+.Salads {
+    background: url("./assets/salad.jpg") no-repeat left center;
+}
+
+.Water {
+    background: url("./assets/water.jpeg") no-repeat left center;
+}
+
+.order-block {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.order-block button {
+    width: 30px;
+    height: 30px;
+    color: black;
+    border-radius: 5px;
+    background: url("./assets/icons8-trash-48.png") no-repeat center center;
+    background-size: 100%;
+}
+
+.order-block button:hover{
+    background: url("./assets/icons8-trash-50.png") no-repeat center center;
+    background-size: 100%;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.total-block{
+    text-align: center;
+    font-size: 22px;
+}
+
+.noOrderHide {
+    display: none;
+}
+
+.text-info {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+
+
+

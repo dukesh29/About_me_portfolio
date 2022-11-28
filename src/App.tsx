@@ -1,12 +1,15 @@
 import React from 'react';
-import './App.css';
+import {Route, Routes} from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import {Route, Routes} from "react-router-dom";
 import Home from "./containers/Home/Home";
 import AboutMe from "./containers/AboutMe/AboutMe";
 import Contacts from "./containers/Contacts/Contacts";
 import Portfolio from "./containers/Portfolio/Portfolio";
+import FastFood from "./containers/Fast Food Menu Calculator/Fast Food";
+import BurgerMaker from "./containers/Burger Maker/BurgerMaker";
+import PokerFace from "./containers/Poker/PokerFace";
+import './App.css';
 
 function App() {
   return (
@@ -27,8 +30,16 @@ function App() {
           )}/>
           <Route path='/portfolio' element={(
             <Portfolio/>
-          )}>
-          </Route>
+          )}/>
+          <Route path='/fastfoodcalc' element={(
+            <FastFood/>
+          )}/>
+          <Route path='/burgermaker' element={(
+            <BurgerMaker/>
+          )}/>
+          <Route path='/poker' element={(
+            <PokerFace/>
+          )}/>
         </Routes>
       </main>
       <Footer/>
