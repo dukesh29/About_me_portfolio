@@ -1,1 +1,67 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
+main{
+    flex-grow: 1;
+}
+
+footer{
+    flex-shrink: 0;
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    padding: 20px;
+    gap: 15px;
+}
+
+.main-block img {
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px black;
+    max-width: 200px;
+    height: auto;
+}
+
+.main-block span {
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.favourites-block ul {
+    list-style: decimal;
+}
+
+.icons {
+    display: block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    text-indent: 50px;
+    white-space: nowrap;
+}
+
+.icons:hover{
+    opacity: 0.8;
+}
+
+.fb {
+    background: url("https://play-lh.googleusercontent.com/5pZMqQYClc5McEjaISPkvhF8pDmlbLqraTMwk1eeqTlnUSjVxPCq-MItIrJPJGe7xW4") no-repeat;
+    background-size: contain;
+}
+
+.in {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png") no-repeat;
+    background-size: contain;
+}
+
+.wh {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png") no-repeat;
+    background-size: contain;
+}
